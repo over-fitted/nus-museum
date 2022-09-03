@@ -1,11 +1,13 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import Link from 'next/link'
-import styles from '../styles/Home.module.css'
+import React from 'react'
 
 export default function Home() {
   return (
     <div>
+      <Head>
+        <title>NUS Museum</title>
+      </Head>
       <h1>Welcome to the NUS Museum!</h1>
       <Link href="listings/first-listing">Click here to see our item!</Link>
     </div>
